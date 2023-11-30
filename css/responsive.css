@@ -7,11 +7,58 @@
 @media screen and (max-width: 576px) {
     .container {
         max-width: 500px;
+        padding: 0;
     }
 
-    .row {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .lessons .row {
         flex-direction: column;
         align-items: center;
     }
+
+    .lessons .col {
+        width: 72%;
+        margin-bottom: 70px;
+    }
+
+    .steps .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .steps .col {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    .why-us .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why-us .col-left {
+        width: 90%;
+    }
+
+    .why-us .col-right {
+        width: 90%;
+    }
+
+    .why-us h2 {
+        font-size: 3rem;
+        padding: 20px;
+    }
+
+    .why-us img {
+        margin-bottom: 70px;
+    }
+
+   .why-us .col > * {
+    font-size: 20px;
+   }
+    
 }
 
